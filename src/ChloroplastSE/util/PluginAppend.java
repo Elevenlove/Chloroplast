@@ -9,8 +9,9 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.util.*;
-/*
- * Util : the util of Plugin: Append a plugin.
+/**
+ * 追加一个文档到该文档的末尾。
+ * @see Chloroplast.util.PluginAppend
  */
 public class PluginAppend {
     public PluginAppend(String floder) throws Exception{
